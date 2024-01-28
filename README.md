@@ -5,4 +5,4 @@ Hearing is the main way to get pitch information, and it is crucial for those wh
 <img width="1177" alt="image" src="https://github.com/JYOU0925/Educational-Game-Helping-Hearing-Impaired-People-Improve-Their-Speaking/assets/116496533/cccf95fb-b45c-46fb-804c-eb10f3f7bb8f">
 
 # Display
-<img width="1177" alt="image" src="https://github.com/JYOU0925/Educational-Game-Helping-Hearing-Impaired-People-Improve-Their-Speaking/assets/116496533/57ad106d-2bb8-432b-96e2-f465d5871a6b">
+<img width="1225" alt="g1的副本" src="https://github.com/JYOU0925/Educational-Game-Helping-Hearing-Impaired-People-Improve-Their-Speaking/assets/116496533/9dcb98d2-eb60-426d-9618-eb64621715d3">
