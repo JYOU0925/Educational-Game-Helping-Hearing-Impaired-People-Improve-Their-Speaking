@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FlappyBird</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">
+    <!-- 引入像素风格字体 -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+</head>
+<body>
+    <canvas id="canvas" width="818" height="552"></canvas>
+    <div class="buttons-container">
+        <button class="button" onclick="restartGame()">Restart</button>
+        <button class="button" onclick="goToIndex3()">Re-enter</button>
+        <button class="button" id="resultButton" hidden onclick="showResult()">Show score</button>
+    </div>
+    <script src="Game_copy.js"></script>
+    <script>
+        function restartGame() {
+            // 在这里添加重新启动游戏的逻辑
+            location.reload(); // 刷新页面
+        }
+
+        function goToIndex3() {
+            // 在这里添加跳转到指定文件路径的逻辑
+            window.location.href = "file:///Users/apple/Documents/dissertation/game/home.html";
+        }
+
+    </script>
+</body>
+</html>

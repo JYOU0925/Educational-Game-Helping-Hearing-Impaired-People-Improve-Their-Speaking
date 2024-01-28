@@ -1,0 +1,43 @@
+#canvas {
+    background-color: #dddddd;
+    border: 2px solid black;
+    display: block;
+    margin: auto;
+    padding: auto;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Optional: Set background color for the whole page */
+}
+
+.buttons-container {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 320px;
+    text-align: center; /* Optional: Center align the buttons */
+}
+
+.button {
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    font-size: 12px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive; /* 使用像素风格字体 */
+}

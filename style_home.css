@@ -1,0 +1,68 @@
+body {
+    /* 将内容在水平和垂直方向上居中显示 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 使用视口高度作为容器高度 */
+    margin: 0; /* 清除默认外边距 */
+    font-family: "Press Start 2P", cursive; /* 使用像素风格字体 */
+}
+
+/* 标签容器样式 */
+.label-container {
+    text-align: center; /* 将文本内容居中对齐 */
+    margin-bottom: 20px; /* 底部留白 */
+}
+
+/* 输入容器样式 */
+.input-container {
+    text-align: center; /* 将文本内容居中对齐 */
+    margin-bottom: 30px; /* 底部留白 */
+    border: 2px solid #fff; /* 添加白色边框 */
+    padding: 20px; /* 内边距 */
+    border-radius: 10px; /* 圆角边框 */
+    font-family: 'Press Start 2P', cursive; /* 使用像素风格字体 */
+    font-size: 14px; /* 字体大小 */
+}
+
+/* 开始按钮样式 */
+#sendTextBtn {
+    background-color: #000; /* 背景颜色为黑色 */
+    border: 2px solid #fff; /* 添加白色边框 */
+    color: #fff; /* 文本颜色为白色 */
+    font-family: 'Press Start 2P', cursive; /* 使用像素风格字体 */
+    font-size: 16px; /* 字体大小 */
+    padding: 10px 20px; /* 内边距 */
+    cursor: pointer; /* 鼠标悬停样式为手型 */
+    transition: background-color 0.3s, border-color 0.3s; /* 添加过渡效果 */
+}
+
+/* 输入字段和选择框的样式 */
+input[type="text"],
+input[type="checkbox"],
+select {
+    border: 2px solid #000; /* 添加黑色边框 */
+    background-color: transparent; /* 背景透明 */
+    color: #000; /* 文本颜色为黑色 */
+    font-family: 'Press Start 2P', cursive; /* 使用像素风格字体 */
+    font-size: 14px; /* 字体大小 */
+    padding: 5px; /* 内边距 */
+    border-radius: 5px; /* 圆角边框 */
+}
+
+/* 选择框选项的样式 */
+select option {
+    background-color: #000; /* 背景颜色为黑色 */
+    border: 1px solid #000; /* 添加黑色边框 */
+    font-family: 'Press Start 2P', cursive; /* 使用像素风格字体 */
+    font-size: 14px; /* 字体大小 */
+    color: #000; /* 文本颜色为黑色 */
+}
+
+/* 标题样式 */
+h1 {
+    margin-bottom: 20px; /* 底部留白 */
+    font-family: 'Press Start 2P', cursive; /* 使用像素风格字体 */
+    font-size: 28px; /* 字体大小 */
+    color: #000; /* 文本颜色为黑色 */
+}
