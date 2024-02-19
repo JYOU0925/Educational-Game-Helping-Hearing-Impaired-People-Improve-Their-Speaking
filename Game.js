@@ -7,10 +7,7 @@ scrn.tabIndex = 1;
 let dx = 10;
 let time_per_frame = null;
 let scale_factor = 1.0;
-
-// Add this variable to keep track of the microphone listening status
 let isListening = false;
-
 let birdY = 250;
 let mediaRecorder;
 let chunks = [];
@@ -24,13 +21,9 @@ function startListening() {
       const source = audioContext.createMediaStreamSource(stream);
       const analyser = audioContext.createAnalyser();
       source.connect(analyser);
-
-      // Set the audio data processing parameters
       analyser.fftSize = 1024;
       const bufferLength = analyser.frequencyBinCount;
       const dataArray = new Float32Array(bufferLength);
-
-      // 设置MediaRecorder以录制音频
       mediaRecorder = new MediaRecorder(stream);
       mediaRecorder.ondataavailable = (event) => {
           if (event.data.size > 0) {
